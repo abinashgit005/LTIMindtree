@@ -14,7 +14,7 @@ variables:
   imageRepository: 'myimage'
   containerRegistry: 'myacr501.azurecr.io'
   dockerfilePath: '**/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: 'latest'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
