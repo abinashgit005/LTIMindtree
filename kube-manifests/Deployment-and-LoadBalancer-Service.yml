@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: LTIMindtree-deployment
+  name: lti-mindtree-deployment
   labels:
     app: app1-nginx
 spec:
@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: LTIMindtree-service
+  name: lti-mindtree-service
   labels:
     app: app1-nginx
 spec:
